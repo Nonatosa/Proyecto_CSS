@@ -1,0 +1,40 @@
+.contenedor{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+
+/*Elementos block*/
+.bloque{
+    background-color: #ffdcc0;
+    border: 2px solid #e57373;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    /*display: inline-block;*/ 
+}
+
+/*Elementos Inline*/
+.inline {
+    background-color: #c8e6c9;
+    border: 2px solid #04770a;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Elementos Inline-Block*/
+.inline-block {
+    background-color: #b6dde4;
+    border: 2px solid #0670ad;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*Pseudo clase*/
+.inline-block:hover {
+    background-color: #0670ad;
+    color: #b6dde4;
+}
